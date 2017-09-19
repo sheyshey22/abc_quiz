@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container-fluid{
+	background-color:#ffccd4;
+	color: #4b4668;
+}
+.navbar-brand{
+	background-color: #ff1493;
+    border: none;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    margin: 50px;
+}
+.progress{
+	position: absolute;
+    top: -25px;
+    left: 0;
+    right: 0;
+    background-color: #4b4668;
+}
+.white-sec{
+	text-align: center;
+	display: block;
+	background-color: #fff;
+    padding: 20px 20px 90px;
+    box-shadow: 4px 6px 38px hsla(0,100%,79%,.3);
+    max-width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+img.img-quest{
+	max-width: 140px;
+    margin: 0px auto;
+}
+.btn-answer{
+	background-color: #edecf0;
+    color: #4b4668;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    border: 1px solid #4b4668;
+    padding: 6px 44px 6px 14px;
+    width: 100%;
+    text-align: left;
+}
+.smGlobalBtn {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	box-shadow: 0 2px 2px #999;
+	padding: 0px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	line-height: 2em;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+}
+.twitterBtn {
+    background: #00ABE3;
+}
+.twitterBtn:before {
+    font-family: "FontAwesome";
+    content: "\f099";
+}
+.googleplusBtn {
+    background: #e64522;
+}
+.googleplusBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d5";
+}
+.linkedinBtn {
+    background: #0094BC;
+}
+
+.linkedinBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e1";
+}
+.pinterestBtn {
+    background: #cb2027;
+}
+.pinterestBtn:before {
+  font-family: "FontAwesome";
+    content: "\f0d2";
+}
